@@ -1,0 +1,82 @@
+*{font-family:"Lucida Console", Courier, monospace;
+	box-sizing: border-box;
+}
+
+.title{
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	font-size:175%;
+	font-weight: bold;
+}
+
+.specificmenu {
+	background-color: #C0C0C0;
+	margin-right: auto;
+    margin-left: auto;
+	border: 1px solid black;
+	margin:15px;
+}
+.meat {
+	width:40%;
+	float:right;
+	font-size:125%;
+	text-align:center;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+#chicken {
+	background-color: #FFD700;
+}
+
+#beef{
+	background-color: #D2691E;
+	color:white;
+}
+
+#sushi{
+	background-color: #66CDAA;
+}
+p{
+	width:90%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	clean:both;
+}
+
+.row {
+	width:100%;
+	margin-right: auto;
+    margin-left: auto;
+    padding:10px;
+}
+
+/*-----Desktop-----*/
+@media (min-width:992px) {
+	.col-lg-4 {
+		float:left;
+		width: 33.33%;
+	}
+}
+
+/*-----Tablet-----*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float:left;
+		width:50%;
+	}
+	.col-md-12{
+		float:left;
+		width:100%;
+	}
+}
+
+/*-----Mobile-----*/
+@media (max-width: 767px){
+	.col-sm-12{
+		float:left;
+		width:100%;
+	}
+}
